@@ -516,3 +516,88 @@ section h2 {
     height: auto;
     display: inline-block;
 }
+
+/* Mobile overrides placed at end to win cascade */
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #main_content {
+        max-width: 100%;
+    }
+
+    .page-content {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    /* Review page screenshot blocks */
+    .screenshot-1col,
+    .screenshot-2col {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .screenshot-1col img,
+    .screenshot-2col img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Photography/Collaborative/Multimedia image stacks */
+    .content img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .fixed-height-image {
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+        margin: 1.5em 0 0 0;
+    }
+
+    .fixed-height-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .bit-taller-image {
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .bit-taller-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-pair {
+        height: auto;
+        display: block;
+        gap: 0;
+    }
+
+    .image-pair img {
+        width: 100%;
+        height: auto;
+        margin-top: 0.75em;
+    }
+
+    /* Teaching project descriptions image row */
+    .student-work-gallery {
+        display: block;
+        height: auto;
+    }
+
+    .student-work-gallery img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 0.75em;
+    }
+}
