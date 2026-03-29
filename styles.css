@@ -121,6 +121,10 @@ a:hover{
     margin-top:1em;
 }
 
+.individual-works {
+    margin-top: 2em;
+}
+
 .gallery img {
     max-width: 100%;
     height: auto;
