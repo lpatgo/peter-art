@@ -416,6 +416,23 @@ section h3 {
     margin-top: 1rem;
 }
 
+.student-quote {
+    width: 85%;
+    margin: 6em auto 0;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.student-quote p {
+    margin: 0 0 0.75rem;
+}
+
+.student-quote cite {
+    display: block;
+    font-style: normal;
+    color: #666;
+}
+
 section {
     margin-bottom: 3rem;
 }
